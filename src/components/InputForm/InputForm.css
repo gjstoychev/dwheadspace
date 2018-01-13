@@ -1,0 +1,101 @@
+.Display {
+  height: 140px;
+  color: white;
+  background-color: #222;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+
+.Display > p {
+  margin: 10px;
+  height: 40px;
+  color: silver;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.LeftInput {
+  display: inline-block;
+  width: 20%;
+  height: 100px;
+  color: white;
+  background-color: #222;
+  border: none;
+  border-right: 1px solid white;
+  border-radius: 3px 0 0 0;
+  vertical-align: top;
+  text-align: center;
+}
+
+.LeftInput > div {
+  height: 22px;
+}
+
+.RightInput {
+  display: inline-block;
+  width: 80%;
+  height: 100px;
+  color: white;
+  background-color: #222;
+  border-radius: 0 3px 0 0;
+  vertical-align: top;
+}
+
+.RightInput > div {
+  height: 22px;
+}
+
+.BonusInput {
+  width: 100%;
+  height: 100px;
+  color: black;
+  border: 1px solid silver;
+  font-size: 32px;
+  text-align: center;
+}
+
+.SpellsInput {
+  width: 100%;
+  height: 100px;
+  color: black;
+  border: 1px solid silver;
+  font-size: 14px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.red {
+  padding: 5px;
+  width: 130px;
+  height: 90px;
+  font-size: 3em;
+  color: red;
+  border: 2px solid white;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.green {
+  padding: 5px;
+  width: 130px;
+  height: 90px;
+  font-size: 3em;
+  color: green;
+  border: 2px solid white;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.white {
+  padding: 5px;
+  width: 130px;
+  height: 90px;
+  font-size: 3em;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}

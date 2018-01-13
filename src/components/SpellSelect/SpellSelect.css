@@ -1,0 +1,12 @@
+.Select {
+  width: 100%;
+}
+
+.SizeLabel {
+  margin-left: 3px;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: white;
+  background-color: #68C3A3;
+  border-radius: 3px;
+}
